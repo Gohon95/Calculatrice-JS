@@ -1,0 +1,84 @@
+body {
+  font-family: lato;
+  background: #dfdfef;
+  padding: 10vw;
+}
+
+#plateau-de-jeu {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border: 3px solid #122125;
+  border-radius: 50%;
+}
+
+#controls {
+  text-align: center;
+  margin-top: -50px;
+}
+
+#controls button {
+  margin: 0 5px;
+  width: 75px;
+  border: none;
+  background: #122125;
+  color: #ccc;
+  font-family: lato;
+  font-size: 15px;
+  border-radius: 20px;
+}
+
+#controls button:hover {
+  background: #30303f;
+}
+
+.bouton {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #122125;
+}
+
+#Rouge {
+  border-top-left-radius: 100%;
+  background: #CF4444;
+  color: #CF4444;
+}
+
+#Rouge.lighten {
+  background: #d96d6d;
+  color: #d96d6d;
+}
+
+#Jaune {
+  border-top-right-radius: 100%;
+  background: #EBBB54;
+  color: #EBBB54;
+}
+
+#Jaune.lighten {
+  background: #f0cd82;
+  color: #f0cd82;
+}
+
+#Vert {
+  border-bottom-left-radius: 100%;
+  background: #94BA65;
+  color: #94BA65;
+}
+
+#Vert.lighten {
+  background: #acca88;
+  color: #acca88;
+}
+
+#Bleu {
+  border-bottom-right-radius: 100%;
+  background: #2790B0;
+  color: #2790B0;
+}
+
+#Bleu.lighten {
+  background: #37aed3;
+  color: #37aed3;
+}
+
