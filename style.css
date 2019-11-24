@@ -116,12 +116,12 @@ body {
   width: 100%;
 }
 
-.modal2{
+.modal2 {
   position: fixed;
-  background-color: #d40a0a;
   top: 0;
-  left: 1513px;
+  left: 0px;
 }
+
 .modal-window {
   position: relative;
   background-color: #FFFFFF;
@@ -131,7 +131,6 @@ body {
   padding: 100px;
   top: 1000px;
 }
-
 
 .close {
   position: absolute;
